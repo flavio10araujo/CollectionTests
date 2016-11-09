@@ -1,0 +1,2 @@
+# CollectionTests
+Java Collections tests.
