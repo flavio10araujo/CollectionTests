@@ -1,4 +1,4 @@
-package com.tests.collections.T06SortedSet.T01TreeSet;
+package com.tests.collections.set.treeset;
 
 import java.util.Comparator;
 import java.util.SortedSet;
