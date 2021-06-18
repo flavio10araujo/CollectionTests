@@ -1,4 +1,4 @@
-package com.tests.collection.T11MapInterface.T02SortedMapInterface.T01TreeMap;
+package com.tests.map.treemap;
 
 import java.util.SortedMap;
 import java.util.TreeMap;

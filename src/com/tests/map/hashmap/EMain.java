@@ -1,4 +1,4 @@
-package com.tests.collection.T11MapInterface.T01HashMap;
+package com.tests.map.hashmap;
 
 import java.util.Collection;
 import java.util.HashMap;
