@@ -1,4 +1,4 @@
-package com.tests.collection.queue.priorityqueue.deque.arraydeque;
+package com.tests.collection.queue.deque.arraydeque;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
