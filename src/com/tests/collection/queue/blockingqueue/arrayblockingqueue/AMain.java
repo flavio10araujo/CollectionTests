@@ -1,4 +1,4 @@
-package com.tests.collection.T10QueueInterface.T04BlockingQueueInterface.T01ArrayBlockingQueue;
+package com.tests.collection.queue.blockingqueue.arrayblockingqueue;
 
 import java.util.UUID;
 import java.util.concurrent.ArrayBlockingQueue;

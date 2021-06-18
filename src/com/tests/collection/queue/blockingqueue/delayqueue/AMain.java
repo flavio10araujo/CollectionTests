@@ -1,4 +1,4 @@
-package com.tests.collection.T10QueueInterface.T04BlockingQueueInterface.T02DelayQueue;
+package com.tests.collection.queue.blockingqueue.delayqueue;
 
 import static java.time.temporal.ChronoUnit.MILLIS;
 import static java.util.concurrent.TimeUnit.MILLISECONDS;
