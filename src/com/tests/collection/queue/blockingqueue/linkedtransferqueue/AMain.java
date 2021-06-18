@@ -1,4 +1,4 @@
-package com.tests.collection.T10QueueInterface.T05TransferQueue.T01LinkedTransferQueue;
+package com.tests.collection.queue.blockingqueue.linkedtransferqueue;
 
 import java.util.concurrent.LinkedTransferQueue;
 import java.util.concurrent.TransferQueue;
