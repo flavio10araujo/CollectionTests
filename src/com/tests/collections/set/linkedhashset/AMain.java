@@ -1,4 +1,4 @@
-package com.tests.collections.T05SetInterface.T02LinkedHashSet;
+package com.tests.collections.set.linkedhashset;
 
 import java.util.LinkedHashSet;
 import java.util.Set;
