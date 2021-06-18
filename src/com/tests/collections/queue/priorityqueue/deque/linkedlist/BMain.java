@@ -1,4 +1,4 @@
-package com.tests.collections.T10QueueInterface.T01LinkedList;
+package com.tests.collections.queue.priorityqueue.deque.linkedlist;
 
 import java.util.LinkedList;
 import java.util.NoSuchElementException;
