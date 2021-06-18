@@ -12,9 +12,13 @@ public class AMain {
 		sortedNames.add("Java");
 		sortedNames.add("SQL");
 		sortedNames.add("HTML");
+		sortedNames.add("Java");
 		sortedNames.add("CSS");
 
 		// Print the sorted set of names.
-		System.out.println(sortedNames); // [CSS, HTML, Java, SQL] The object will be printed ordered by name because String implements Comparable interface.
+		System.out.println(sortedNames);
+		// [CSS, HTML, Java, SQL] 
+		// The objects will be printed ordered by name because String implements Comparable interface.
+		// The list will not have duplicates because SortedSet implements Set.
 	}
 }

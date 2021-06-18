@@ -1,13 +1,13 @@
 package com.tests.collections.T06SortedSet.T01TreeSet;
 
 import java.util.Comparator;
-import java.util.SortedSet;
+import java.util.NavigableSet;
 import java.util.TreeSet;
 
 public class DMain {
 	public static void main(String[] args) {
 		// Sort the names based on their length, placing null first.
-		SortedSet<String> names = new TreeSet<>(Comparator.nullsFirst(Comparator.comparing(String::length)));
+		TreeSet<String> names = new TreeSet<>(Comparator.nullsFirst(Comparator.comparing(String::length)));
 		
 		names.add("O");
 		names.add("JS");
@@ -27,5 +27,10 @@ public class DMain {
 		HTML
 		JUNIT
 		*/
+		
+		NavigableSet<String> treereverse = names.descendingSet();
+		
+		// Print in reverse order.
+		treereverse.forEach(System.out::println);
 	}
 }

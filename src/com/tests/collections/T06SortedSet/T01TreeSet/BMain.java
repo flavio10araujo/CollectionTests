@@ -14,7 +14,8 @@ public class BMain {
 		personsById.add(new Person(2, "Z"));
 		personsById.add(new Person(3, "A"));
 		personsById.add(new Person(4, "C"));
-		personsById.add(new Person(4, "S")); // A duplicate Person. This only will work because Person has the method equals implemented.
+		personsById.add(new Person(4, "X")); // A duplicate Person.
+		personsById.add(new Person(5, "Z")); // A duplicate Person.
 
 		System.out.println("Persons by Id:");
 		personsById.forEach(System.out::println);
@@ -25,6 +26,7 @@ public class BMain {
 		personsByName.add(new Person(2, "Z"));
 		personsByName.add(new Person(3, "A"));
 		personsByName.add(new Person(4, "C"));
+		personsByName.add(new Person(5, "X"));
 
 		System.out.println("Persons by Name: ");
 		personsByName.forEach(System.out::println);
@@ -65,7 +67,10 @@ class Person {
 
 		// id must be the same for two Persons to be equal.
 		Person p = (Person) o;
-		if (this.id == p.getId()) {
+		/*if (this.id == p.getId()) {
+			return true;
+		}*/
+		if (this.getName().equals(p.getName())) {
 			return true;
 		}
 
