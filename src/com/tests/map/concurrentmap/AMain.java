@@ -1,4 +1,4 @@
-package com.tests.collection.T11MapInterface.T03ConcurrentMapInterface;
+package com.tests.map.concurrentmap;
 
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;

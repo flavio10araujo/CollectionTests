@@ -1,4 +1,4 @@
-package com.tests.collection.T11MapInterface.T02SortedMapInterface.T02NavigableMapInterface;
+package com.tests.map.treemap.navigablemap;
 
 import java.util.Map.Entry;
 import java.util.NavigableMap;
