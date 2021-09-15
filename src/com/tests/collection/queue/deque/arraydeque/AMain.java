@@ -15,7 +15,7 @@ public class AMain {
 		queue.add("CSS");
 		queue.add("XML");
 
-		System.out.println("Queue: " + queue); // Stack: [XML, CSS, HTML, Oracle]
+		System.out.println("Queue: " + queue); // Queue: [XML, CSS, HTML, Oracle]
 
 		// Remove all elements from the Deque.
 		while (queue.peek() != null) {
